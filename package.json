@@ -1,0 +1,46 @@
+{
+  "name": "todo-hasura-quasar2",
+  "version": "0.0.1",
+  "description": "A simple TODO app",
+  "productName": "todo-app",
+  "author": "ZoWellDev <zo@sowellapp.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.11",
+    "@quasar/extras": "^1.0.0",
+    "@vue/apollo-composable": "^4.0.0-alpha.12",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "apollo-link-ws": "^1.0.20",
+    "core-js": "^3.6.5",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
+    "quasar": "^2.0.0-beta.1",
+    "subscriptions-transport-ws": "^0.9.18",
+    "vue-apollo": "^3.0.7"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.0.0-beta.1",
+    "@types/node": "^10.17.15"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
